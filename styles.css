@@ -1,0 +1,103 @@
+/* styles.css */
+
+body {
+    display: flex;
+    flex:1;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+ul{
+    list-style-type: none;
+    display: flex;
+    gap:16px;
+    
+    
+}
+a:link{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size:18px;
+    
+
+}
+.a{
+    font-size: 30px;
+    font-weight: bold;
+    color:#F9FAF8;
+    
+}
+.aw{
+   
+    display:flex;
+    flex-flow: column wrap;
+    gap:10px;
+
+}
+button{
+    max-width: 100px ;
+}
+.c1{
+    background-color: #1F2937;
+    color: aliceblue;
+    display: flex;
+    flex-flow: column;
+    padding:0px 80px;
+    margin:0;
+    flex-wrap: wrap;
+
+}
+h7{
+    font-size: 20px;
+    color: #f9faf8;
+
+}
+.sm1{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+.c2{
+    display:flex;
+    align-items: center;
+
+}
+ul.c2{
+    background-color:yellow;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.c2 li{
+    text-align: center;
+}
+
+.d{
+    width:200px;
+
+}
+.c3{
+    display: flex;
+    text-align: left;
+    flex-flow: column wrap;
+    padding: 20px;
+    margin:50px 120px;
+    background-color:#e5e7eb;
+
+}
+.side{
+    align-self: flex-end;
+}
+
+.c5{
+    text-align: center;
+    margin:0;
+    padding:10px;
+    background-color: #1F2937;
+    color:white;
+    font-size: 15px;
+
+}

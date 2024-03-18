@@ -14,10 +14,27 @@ ul{
     
     
 }
+
+
+
+
+img.imglass {
+  
+ width: 300px;
+ height:200px;
+ align-self: flex-end;
+ opacity:0.3;
+ margin-top:-130px;
+ margin-right: 20px;
+ 
+
+ 
+}
+
 a:link{
     text-decoration: none;
     color: #e5e7eb;
-    font-size:18px;
+    font-size:15px;
     
 
 }
@@ -32,23 +49,31 @@ a:link{
     display:flex;
     flex-flow: column wrap;
     gap:10px;
-
+    width:500px;
+    
+    
 }
 button{
     max-width: 100px ;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 10px;
 }
 .c1{
     background-color: #1F2937;
     color: aliceblue;
     display: flex;
-    flex-flow: column;
-    padding:0px 80px;
+    flex-flow: column wrap;
+    padding: 0px 80px 30px 80px;
     margin:0;
-    flex-wrap: wrap;
+    
+    
+
 
 }
 h7{
-    font-size: 20px;
+    font-size: 18px;
     color: #f9faf8;
 
 }
@@ -62,10 +87,10 @@ h7{
 .c2{
     display:flex;
     align-items: center;
-
+    gap:40px;
 }
 ul.c2{
-    background-color:yellow;
+    
     display: flex;
     justify-content: center;
     
@@ -77,26 +102,69 @@ ul.c2{
 
 .d{
     width:200px;
-
+    border:3px solid  #3882F6;
+    border-radius:20px;
 }
 .c3{
     display: flex;
-    text-align: left;
+    font-style:italic;
+    font-size: 20px;
+    font-weight: lighter;
+    color:#1F2937;
     flex-flow: column wrap;
-    padding: 20px;
-    margin:50px 120px;
+    padding:60px 180px;
+    margin:30px 0px;
     background-color:#e5e7eb;
-
+    text-align:left;
 }
 .side{
     align-self: flex-end;
+    font-size: 14px;
+    font-weight:bold;
+
+
 }
 
+.c4{
+    display: flex;
+    flex-flow: column wrap;
+    margin: 50px 170px;
+    padding:20px;
+    background-color: #3882F6;
+    color:white;
+  
+   
+    
+}
+.ac{
+    font-size: 15px;
+    font-weight:bold;
+
+
+
+  
+}
+.bac{
+    font-size: 13px;
+  
+    
+}
+
+
+.c4 button{
+    background-color:#3882F6;
+    border: 2px solid white;
+    margin-top: -30px;
+    padding:2px 15px;
+    align-self: flex-end;
+  
+    
+ }
 .c5{
     text-align: center;
     margin:0;
     padding:10px;
-    background-color: #1F2937;
+    background-color:  #1F2937;
     color:white;
     font-size: 15px;
 
